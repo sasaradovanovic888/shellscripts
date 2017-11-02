@@ -2,3 +2,5 @@ java version "1.8.0_151"
 Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
 Java HotSpot(TM) Client VM (build 25.151-b12, mixed mode, sharing)
 javac 1.8.0_151
+JAVA_HOME = /usr/java/jdk1.8.0_151/
+JRE_HOME = /usr/java/jdk1.8.0_151/jre
