@@ -1,9 +1,9 @@
 #!/bin/bash
 #echo "rm -f, --force ignore nonexistent files, never prompt"
-rm -f java_version.log
-java -version 2> java_version.log
-#cat java_version.log
-javac -version 2>> java_version.log
-cat java_version.log
+file=java_version.log
+rm -f $file
+java -version 2> $file
+javac -version 2>> $file
+cat $file
 echo "JAVA_HOME = $JAVA_HOME"
 echo "JRE_HOME = $JRE_HOME"
