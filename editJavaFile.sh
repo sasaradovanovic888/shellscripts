@@ -7,7 +7,7 @@ editor='emacs' # editor='nano'
 touch $file.java
 # $editor $file.java &
 $editor $file.java
-# compile the file
+# compile the $file.java
 javac $file.java
 # create start shell script and insert initial code
 touch start_$file.sh
