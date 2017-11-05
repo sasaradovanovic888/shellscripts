@@ -5,7 +5,8 @@ rm --force $file.class # remove $file.class, ignore nonexistent files, never pro
 java='java'
 editor='emacs' # editor='nano'
 touch $file.java
-$editor $file.java &
+# $editor $file.java &
+$editor $file.java
 # compile the file
 javac $file.java
 # create start shell script and insert initial code
