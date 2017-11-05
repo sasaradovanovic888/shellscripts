@@ -1,4 +1,7 @@
 #!/bin/bash
+# Usage: editJavaFile HelloWorld
+# without .java extension
+#
 # $file.java file is edited, compiled and script for starting is created
 file=$1
 rm --force $file.class # remove $file.class, ignore nonexistent files, never prompt
