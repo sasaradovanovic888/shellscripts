@@ -1,0 +1,5 @@
+# User specific environment and startup programs
+export JAVA_HOME=/usr/java/jdk1.8.0_151/
+export JRE_HOME=/usr/java/jdk1.8.0_151/jre
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export PATH
