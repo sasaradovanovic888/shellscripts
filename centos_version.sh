@@ -8,3 +8,6 @@ cat /etc/redhat-release
 echo
 echo "Release:"
 lsb_release -a
+echo
+echo "Issue:"
+cat /etc/issue
