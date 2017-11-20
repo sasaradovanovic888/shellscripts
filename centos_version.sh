@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "Version:"
+echo "CentOS version:"
 cat /proc/version
 echo
 echo "RedHat Release:"
