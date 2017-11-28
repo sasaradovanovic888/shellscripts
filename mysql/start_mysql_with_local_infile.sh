@@ -1,5 +1,5 @@
 #!/bin/bash
-user=`user` # change `user` for current dbusername
-password=`user123` # change password=`yourpassword` to password for the dbusername
-db=`manuals` # change db=`yourDBname` with current working dbname 
-mysql --local-infile -u$user -p$password $db
+dbuser="user" # change user for current dbusername
+dbpassword="user123" # change to password for the dbusername
+db="manuals" # change db with current working dbname
+mysql --local-infile -u$dbuser -p$dbpassword $db
