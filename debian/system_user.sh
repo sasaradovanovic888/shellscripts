@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 username=$USER
 echo "Welcome user: $username"
